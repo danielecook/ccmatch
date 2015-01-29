@@ -1,6 +1,6 @@
 {smcl}
-{* *! version 1.2  6 Mar 2013}{...}
-{cmd:help ccmatch}{right: (version 1.1) }
+{* *! version 1.3  27 Jan 2015}{...}
+{cmd:help ccmatch}{right: (version 1.3) }
 By Daniel E. Cook {Danielecook@gmail.com} {right: www.Danielecook.com}
 {hline}
 {title:ccmatch}
@@ -58,7 +58,8 @@ can use ccmatch to specify age as a criterion on which to match cases and contro
 {hline}
 {p}{it:note} I use individual in this document but it could be interchanged with the word 'observation' and meaning would be the same. This program should be used in cases where each row of your dataset constitutes a single individual.{p_end}
 {hline}
-Last Revised {it: 03/06/13}
+Last Revised {it: 01/27/15}
+{it: Update} - 01/27/15 - Fixed bugs that caused missing values to match.
 {it: Update} - 03/06/13 - Fixed bugs, reduced number of lines of code.
 {it: Update} - 12/18/12
 {col 10} - Huge performance improvement - works on extremely large datasets now. 
